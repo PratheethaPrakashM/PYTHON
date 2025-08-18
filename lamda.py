@@ -20,3 +20,10 @@ a=[1,2,3,4]
 b=map(lambda x:x*x,a)
 c=list(map(lambda x:x*x,a))
 print(c)
+
+a=[2,4,6,7,9]
+c=list(filter(lambda a:a%2==0,a))
+print(c)
+# syntax of map in lambda function
+# variable=list(map(lambda argument:expression))
+
