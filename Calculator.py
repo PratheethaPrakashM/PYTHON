@@ -4,10 +4,10 @@ class calculator:
         self.b=b
         
     def add(self):
-        return a
+        return self.a
     
     def sub(self):
-        return a
+        return self.a
     
     def mul(self):
         return self.a * self
@@ -16,7 +16,7 @@ class calculator:
         if self.b==0:
             return"not possible"  
                
-        return a//b
+        return self.a//self.b
     
 calc=calculator()
 print(calc.add(2,3)) 
